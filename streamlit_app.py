@@ -13,10 +13,10 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 # ✅ Load Saved Models & Data
-model = pickle.load(open("movie-genre-classification/model.pkl", "rb"))
-vectorizer = pickle.load(open("movie-genre-classification/vectorizer.pkl", "rb"))
-mlb = pickle.load(open("movie-genre-classification/mlb.pkl", "rb"))
-df = pd.read_csv("movie-genre-classification/cleaned_tmdb_movies.csv")
+model = pickle.load(open("model.pkl", "rb"))
+vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
+mlb = pickle.load(open("mlb.pkl", "rb"))
+df = pd.read_csv("cleaned_tmdb_movies.csv")
 
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words("english"))
