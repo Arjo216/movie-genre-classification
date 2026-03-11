@@ -19,7 +19,7 @@ This is a machine learning web app that classifies a movie’s genre from either
 ## 🚀 How to Run Locally
 
 ```bash
-git clone https://github.com/Arjo216-dev/movie-genre-classifier.git
+git clone https://github.com/Arjo216/movie-genre-classifier.git
 cd movie-genre-classifier
 pip install -r requirements.txt
 streamlit run streamlit_app.py
